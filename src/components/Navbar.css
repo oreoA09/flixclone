@@ -2,4 +2,23 @@
     display: flex;
     background: #000;
     color: #fff;
+    padding: 20px 40px;
+    justify-content: space-between;
+}
+
+.navbar_left{
+    display: flex;
+    width: 50%;
+    gap: 50px;
+}
+
+.navbar_right{
+    display: flex;
+    gap: 20px;
+}
+
+.navbar_left a{
+    text-decoration: none;
+    color: #fff;
+    padding-right: 20px;
 }
