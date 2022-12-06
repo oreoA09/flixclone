@@ -3,6 +3,8 @@ import './Navbar.css'
 import SearchIcon from '@mui/icons-material/Search';
 import NotificationsNoneIcon from '@mui/icons-material/NotificationsNone';
 
+// remember rfce
+
 function Navbar() {
   return (
     <div className='navbar_container'>
