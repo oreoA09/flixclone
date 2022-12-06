@@ -1,3 +1,4 @@
+import { style } from '@mui/system';
 import React, {useState, useEffect} from 'react'
 import './Banner.css'
 
@@ -11,11 +12,22 @@ const Movies = () => {
   const getMovies = async () =>{
     const response = await fetch(url);
     const movie = await response.json();
+    
     setMovie(movie);
-    console.log(movie)
+    // console.log(`https://image.tmdb.org/t/p/original${movie.backdrop_path}`)
   };
 
-  getMovies();
+  useEffect(() =>{
+    getMovies();
+  }, []);
+
+  return(
+    <div>
+      <img src={`https://image.tmdb.org/t/p/original${movie.backdrop_path}`}/>
+      
+    </div>
+  )
+  
 }
 // function Banner() {
 //   return (
