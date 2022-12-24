@@ -5,7 +5,7 @@ import InfoIcon from '@mui/icons-material/Info';
 
 const ApiKey = "1cf3362c675fc58269a5bd2f0860ee6b";
 
-const url = `https://api.themoviedb.org/3/movie/550?api_key=${ApiKey}`;
+const url = `https://api.themoviedb.org/3/discover/tv?api_key=${ApiKey}`;
 
 const Movies = () => {
   const [movie, setMovie] = useState([]);
@@ -37,7 +37,7 @@ const Movies = () => {
       className="banner"
       style={{
         backgroundSize: "cover",
-        backgroundImage: `url(https://image.tmdb.org/t/p/original${movie?.backdrop_path})`,
+        backgroundImage: `url(https://image.tmdb.org/t/p/original/${movie?.backdrop_path})`,
         backgroundPosition: "top center",
       }}
     >
