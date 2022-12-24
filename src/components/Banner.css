@@ -5,11 +5,11 @@
   }
   
   .banner__contents {
-    /* margin-left: 30px; */
+    margin-left: 30px;
     padding-top: 140px;
     height: 190px;
-    /* display: flex;
-    flex-direction: column; */
+    display: flex;
+    flex-direction: column;
   }
   .banner__title {
     font-size: 3rem;
@@ -25,6 +25,9 @@
     max-width: 360px;
     height: 80px;
   }
+  .btns{
+    display: inline-flex;
+  }
   .banner__button {
     cursor: pointer;
     color: #fff;
@@ -38,6 +41,9 @@
     padding-top: 0.5rem;
     background-color: rgba(51, 51, 51, 0.5);
     padding-bottom: 0.5rem;
+    display: flex;
+    gap: 8px;
+    align-items: center;
   }
   .banner__button:hover {
     color: #000;

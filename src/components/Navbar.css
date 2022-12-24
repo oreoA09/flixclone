@@ -9,7 +9,7 @@
 .navbar_left{
     display: flex;
     width: 50%;
-    gap: 50px;
+    gap: 40px;
 }
 
 .navbar_right{
@@ -20,5 +20,5 @@
 .navbar_left a{
     text-decoration: none;
     color: #fff;
-    padding-right: 20px;
+    padding-right: 15px;
 }
