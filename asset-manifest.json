@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/flixclone/static/css/main.5df8a58f.css",
+    "main.js": "/flixclone/static/js/main.925d94cd.js",
+    "index.html": "/flixclone/index.html",
+    "main.5df8a58f.css.map": "/flixclone/static/css/main.5df8a58f.css.map",
+    "main.925d94cd.js.map": "/flixclone/static/js/main.925d94cd.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5df8a58f.css",
+    "static/js/main.925d94cd.js"
+  ]
+}
